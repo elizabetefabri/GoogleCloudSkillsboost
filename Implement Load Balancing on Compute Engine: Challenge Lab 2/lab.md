@@ -5,29 +5,36 @@
 </h1>
 
 ### ⚠️ Disclaimer
-- **This script and guide are provided for  the educational purposes to help you understand the lab services and boost your career. Before using the script, please open and review it to familiarize yourself with Google Cloud services. Ensure that you follow 'Qwiklabs' terms of service and YouTube’s community guidelines. The goal is to enhance your learning experience, not to bypass it.**
+This repository is for **educational purposes only**.  
+It was created to support learners practicing the  
+**Google Cloud Skills Boost – Implement Load Balancing on Compute Engine: Challenge Lab**.
+
+Before running any automation script:
+
+- Make sure you understand each Google Cloud resource it creates  
+- Follow all **Qwiklabs / Cloud Skills Boost Terms of Service**  
+- Respect Google Cloud and YouTube community guidelines  
+
+This project aims to **support your learning journey**, not replace the real lab experience.
 
 ### ©Credit
-- **DM for credit or removal request (no copyright intended) ©All rights and credits for the original content belong to Google Cloud [Google Cloud Skill Boost website](https://www.cloudskillsboost.google/)** 🙏
+All credits for the original lab and challenge belong to:
 
+🌐 **Google Cloud Skills Boost**  
+https://www.cloudskillsboost.google/
+
+The automation script in this repository is based on community learning resources and adapted for personal study.
+
+If removal or credit adjustment is required, feel free to open an issue or DM.
 
 ### Run the following Commands in CloudShell
 
-```
-curl -LO https://raw.githubusercontent.com/Itselizabetefabri7py/GoogleCloudSkillsboost/refs/heads/main/Implement%20Load%20Balancing%20on%20Compute%20Engine%3A%20Challenge%20Lab2/elizabetefabri.sh
+To automatically deploy the resources for this challenge lab, run the commands below directly in Google Cloud Shell:
+
+```bash
+curl -LO https://raw.githubusercontent.com/elizabetefabri/GoogleCloudSkillsboost/refs/heads/main/Implement%20Load%20Balancing%20on%20Compute%20Engine%3A%20Challenge%20Lab%202/elizabetefabri.sh
 sudo chmod +x elizabetefabri.sh
 ./elizabetefabri.sh
 ```
+
 ### Congratulations !!!!
-
-<div align="center">
-
-<h3>🌟 Connect with fellow cloud enthusiasts, ask questions, and share your learning journey! 🌟</h3>
-
-<div align="center">
-
-<h3 style="font-family: 'Segoe UI', sans-serif; color: linear-gradient(90deg, #4F46E5, #E114E5);">🌟 Connect with Cloud Enthusiasts 🌟</h3>
-<p style="font-family: 'Segoe UI', sans-serif;">Join the community, share knowledge, and grow together!</p>
-
-
-</div>
