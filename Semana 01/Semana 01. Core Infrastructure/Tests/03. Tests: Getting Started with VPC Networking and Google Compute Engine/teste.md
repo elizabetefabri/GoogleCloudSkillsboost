@@ -1,6 +1,6 @@
 <h1>
     <a href="https://www.skills.google/course_templates/648/labs/597919">
-        <img align="center" width="40px" src="../../../.github/images/google-cloud.png" alt="Google Cloud Logo">
+        <img align="center" width="40px" src="https://raw.githubusercontent.com/elizabetefabri/GoogleCloudSkillsboost/refs/heads/main/.github/images/google-cloud.png" alt="Google Cloud Logo">
     </a>
     <span>03. Tests: Getting Started with VPC Networking and Google Compute Engine</span>
 </h1>

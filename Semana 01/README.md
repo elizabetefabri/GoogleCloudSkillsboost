@@ -1,6 +1,6 @@
 <h1 align="left">
   <a href="https://www.cloudskillsboost.google/">
-    <img align="center" width="40px" src="../.github/images/google-cloud.png" alt="Google Cloud"/>
+    <img align="center" width="40px" src="https://raw.githubusercontent.com/elizabetefabri/GoogleCloudSkillsboost/refs/heads/main/.github/images/google-cloud.png" alt="Google Cloud"/>
   </a>
   <span style="padding-left: 10px;">Semana 01 - Google Skills Boost</span>
 </h1>
@@ -12,7 +12,8 @@ para o conteúdo ou solução correspondente.
 
 Usei este espaço como **central de estudos**, facilitando o acesso e registro de cada prática em Google Cloud.
 
-> ### 📑 Lista das Tarefas Desenvolvidas   
+> ### 📑 Lista das Tarefas Desenvolvidas
+>
 > Abaixo se encontra anotações para que sejam consultadas, para fins em estudos
 
 <table>
@@ -31,7 +32,7 @@ Usei este espaço como **central de estudos**, facilitando o acesso e registro d
       </td>
       <td  align="center">
         <p>
-          <img width="25px" height="25px" alt="icon check" src="../.github/images/check.png">
+          <img width="25px" height="25px" alt="icon check" src="https://raw.githubusercontent.com/elizabetefabri/GoogleCloudSkillsboost/refs/heads/main/.github/images/check.png">
         </p>
       </td>
       <td>
@@ -51,7 +52,7 @@ Usei este espaço como **central de estudos**, facilitando o acesso e registro d
       </td>
       <td  align="center">
         <p>
-          <img width="25px" height="25px" alt="icon check" src="../.github/images/check.png">
+          <img width="25px" height="25px" alt="icon check" src="https://raw.githubusercontent.com/elizabetefabri/GoogleCloudSkillsboost/refs/heads/main/.github/images/check.png">
         </p>
       </td>
       <td>
@@ -69,7 +70,6 @@ Usei este espaço como **central de estudos**, facilitando o acesso e registro d
   <tfoot>
   </tfoot>
 </table>
-
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 

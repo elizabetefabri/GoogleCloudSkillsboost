@@ -15,7 +15,7 @@ Usei este espaço como **central de estudos**, facilitando o acesso e registro d
 > ### 📑 Lista de Tarefas e Anotações
 >
 > Aqui você encontra todas as tarefas realizadas e as anotações importantes deste estudo.
-Use esta seção para consultar rapidamente o que já foi feito e revisar o conteúdo sempre que precisar.
+> Use esta seção para consultar rapidamente o que já foi feito e revisar o conteúdo sempre que precisar.
 
 <table>
   <thead>
@@ -33,7 +33,7 @@ Use esta seção para consultar rapidamente o que já foi feito e revisar o cont
       </td>
       <td  align="center">
         <p>
-          <img width="25px" height="25px" alt="icon check" src="../../.github/images/check.png">
+          <img width="25px" height="25px" alt="icon check" src="https://raw.githubusercontent.com/elizabetefabri/GoogleCloudSkillsboost/refs/heads/main/.github/images/check.png">
         </p>
       </td>
       <td>
@@ -53,7 +53,7 @@ Use esta seção para consultar rapidamente o que já foi feito e revisar o cont
       </td>
       <td  align="center">
         <p>
-          <img width="25px" height="25px" alt="icon check" src="../../.github/images/check.png">
+          <img width="25px" height="25px" alt="icon check" src="https://raw.githubusercontent.com/elizabetefabri/GoogleCloudSkillsboost/refs/heads/main/.github/images/check.png">
         </p>
       </td>
       <td>
@@ -71,7 +71,6 @@ Use esta seção para consultar rapidamente o que já foi feito e revisar o cont
   <tfoot>
   </tfoot>
 </table>
-
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
