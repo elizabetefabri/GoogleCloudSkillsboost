@@ -41,7 +41,7 @@ Usei este espaço como **central de estudos**, facilitando o acesso e registro d
       </td>
       <td align="center">
         <p>
-          <a href="" target="_blank">
+          <a href="https://github.com/elizabetefabri/GoogleCloudSkillsboost/tree/main/Semana%2001" target="_blank">
             <img align="center" alt="Botão" src="https://img.shields.io/badge/ABRIR-FF9988?COLOR?style=for-the-badge" width="60px">
           </a>
         </p>
