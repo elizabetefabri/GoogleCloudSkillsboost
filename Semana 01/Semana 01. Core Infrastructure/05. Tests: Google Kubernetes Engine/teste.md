@@ -1,6 +1,6 @@
 <h1>
     <a href="https://www.skills.google/course_templates/648/labs/597919">
-        <img align="center" width="40px" src="../../.github/images/google-cloud.png" alt="Google Cloud Logo">
+        <img align="center" width="40px" src="../../../.github/images/google-cloud.png" alt="Google Cloud Logo">
     </a>
     <span>05. Tests: Google Kubernetes Engine</span>
 </h1>

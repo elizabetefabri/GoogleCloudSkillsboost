@@ -1,8 +1,8 @@
 <h1 align="left">
   <a href="https://www.cloudskillsboost.google/">
-    <img align="center" width="40px" src="../.github/images/google-cloud.png" alt="Google Cloud"/>
+    <img align="center" width="40px" src="../../.github/images/google-cloud.png" alt="Google Cloud"/>
   </a>
-  <span style="padding-left: 10px;">GOOGLE SKILLS BOOST – 2025</span>
+  <span style="padding-left: 10px;">Semana 01 - Cloud Load Balancing no Compute Engine</span>
 </h1>
 
 ### 📘 Sobre este repositório
@@ -12,15 +12,17 @@ para o conteúdo ou solução correspondente.
 
 Usei este espaço como **central de estudos**, facilitando o acesso e registro de cada prática em Google Cloud.
 
-> ### 📑 Lista das Tarefas Desenvolvidas   
-> Abaixo se encontra anotações para que sejam consultadas, para fins em estudos
+> ### 📑 Lista de Tarefas e Anotações
+>
+> Aqui você encontra todas as tarefas realizadas e as anotações importantes deste estudo.
+Use esta seção para consultar rapidamente o que já foi feito e revisar o conteúdo sempre que precisar.
 
 <table>
   <thead>
     <tr align="left">
-      <th>Nº</th>
+      <th>Nº SEMANA</th>
       <th>STATUS</th>
-      <th>SEMANAS</th>
+      <th>ATIVIDADES</th>
       <th>VISUALISAR ANOTAÇÕES</th>
     </tr>
   </thead>
@@ -31,7 +33,7 @@ Usei este espaço como **central de estudos**, facilitando o acesso e registro d
       </td>
       <td  align="center">
         <p>
-          <img width="25px" height="25px" alt="icon check" src="../.github/images/check.png">
+          <img width="25px" height="25px" alt="icon check" src="../../.github/images/check.png">
         </p>
       </td>
       <td>
@@ -51,7 +53,7 @@ Usei este espaço como **central de estudos**, facilitando o acesso e registro d
       </td>
       <td  align="center">
         <p>
-          <img width="25px" height="25px" alt="icon check" src="../.github/images/check.png">
+          <img width="25px" height="25px" alt="icon check" src="../../.github/images/check.png">
         </p>
       </td>
       <td>
