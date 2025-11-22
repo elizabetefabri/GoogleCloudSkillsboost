@@ -23,17 +23,15 @@ Este projeto tem como objetivo **apoiar sua jornada de aprendizado**, e não sub
 ### Siga os passos abaixo:
 
 ```
-export ZONE_1=
+export ZONE_1=us-east1-c
 
-curl -LO 
+curl -LO http://raw.githubusercontent.com/elizabetefabri/GoogleCloudSkillsboost/refs/heads/main/04.%20Lab%3A%20No%C3%A7%C3%B5es%20b%C3%A1sicas%20do%20Google%20Cloud%3A%20como%20come%C3%A7ar%20a%20usar%20o%20Cloud%20Storage%20e%20o%20Cloud%20SQL/elizabetefabri.sh
 
 sudo chmod +x elizabetefabri.sh
 
 ./elizabetefabri.sh
 
-
 ```
-
 
 <div align="center">
 

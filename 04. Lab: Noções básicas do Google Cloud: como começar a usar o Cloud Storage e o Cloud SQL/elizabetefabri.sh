@@ -1,44 +1,89 @@
-gcloud compute instances create bloghost --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --machine-type=e2-medium --network-interface=network-tier=PREMIUM,stack-type=IPV4_ONLY,subnet=default --metadata=startup-script=apt-get\ update$'\n'apt-get\ install\ apache2\ php\ php-mysql\ -y$'\n'service\ apache2\ restart,enable-oslogin=true --maintenance-policy=MIGRATE --provisioning-model=STANDARD --scopes=https://www.googleapis.com/auth/devstorage.read_only,https://www.googleapis.com/auth/logging.write,https://www.googleapis.com/auth/monitoring.write,https://www.googleapis.com/auth/servicecontrol,https://www.googleapis.com/auth/service.management.readonly,https://www.googleapis.com/auth/trace.append --tags=http-server --create-disk=auto-delete=yes,boot=yes,device-name=bloghost,image=projects/debian-cloud/global/images/debian-11-bullseye-v20231212,mode=rw,size=10,type=projects/$DEVSHELL_PROJECT_ID/zones/$ZONE/diskTypes/pd-balanced --no-shielded-secure-boot --shielded-vtpm --shielded-integrity-monitoring --labels=goog-ec-src=vm_add-gcloud --reservation-affinity=any
+#!/bin/bash
 
+# Define color variables
+PURPLE_TEXT=$'\033[0;35m'
+GOLD_TEXT=$'\033[0;33m'
+TEAL_TEXT=$'\033[0;36m'
+LIME_TEXT=$'\033[0;92m'
+MAROON_TEXT=$'\033[0;91m'
+NAVY_TEXT=$'\033[0;94m'
+WHITE_TEXT=$'\033[0;97m'
+NO_COLOR=$'\033[0m'
+RESET_FORMAT=$'\033[0m'
+BOLD_TEXT=$'\033[1m'
+UNDERLINE_TEXT=$'\033[4m'
 
+clear
 
-export LOCATION=US
+# Welcome message
+echo "${PURPLE_TEXT}${BOLD_TEXT}=============================================${RESET_FORMAT}"
+echo "${PURPLE_TEXT}${BOLD_TEXT}    WELCOME TO DR. ABHISHEK CLOUD TUTORIALS   ${RESET_FORMAT}"
+echo "${PURPLE_TEXT}${BOLD_TEXT}=============================================${RESET_FORMAT}"
+echo
 
-gcloud storage buckets create -l $LOCATION gs://$DEVSHELL_PROJECT_ID
+echo "${TEAL_TEXT}${BOLD_TEXT}Please enter the required details when prompted.${RESET_FORMAT}"
+echo
 
-gcloud storage cp gs://cloud-training/gcpfci/my-excellent-blog.png my-excellent-blog.png
+# Function to run form 1 code
+run_form_1() {
+    export BUCKET="$(gcloud config get-value project)"        
 
-gcloud storage cp my-excellent-blog.png gs://$DEVSHELL_PROJECT_ID/my-excellent-blog.png
+    gsutil mb -p $BUCKET gs://$Bucket_1
+    gsutil retention set 30s gs://$Bucket_2
+    echo "Cloud Storage Demo" > sample.txt
+    gsutil cp sample.txt gs://$Bucket_3/
+    echo "${LIME_TEXT}${BOLD_TEXT}Form 1 execution completed successfully!${RESET_FORMAT}"
+}
 
-gsutil acl ch -u allUsers:R gs://$DEVSHELL_PROJECT_ID/my-excellent-blog.png
+# Function to run form 2 code
+run_form_2() {
+    gsutil mb -c nearline gs://$Bucket_1
+    gcloud alpha storage buckets update gs://$Bucket_2 --no-uniform-bucket-level-access
+    gsutil acl ch -u $USER_EMAIL:OWNER gs://$Bucket_2
+    gsutil rm gs://$Bucket_2/sample.txt
+    echo "Cloud Storage Demo" > sample.txt
+    gsutil cp sample.txt gs://$Bucket_2
+    gsutil acl ch -u allUsers:R gs://$Bucket_2/sample.txt
+    gcloud storage buckets update gs://$Bucket_3 --update-labels=key=value
+    echo "${LIME_TEXT}${BOLD_TEXT}Form 2 execution completed successfully!${RESET_FORMAT}"
+}
 
+# Function to run form 3 code
+run_form_3() {
+    gsutil mb -c nearline gs://$Bucket_1
+    echo "This is an example of editing the file content for cloud storage object" | gsutil cp - gs://$Bucket_2/sample.txt
+    gsutil defstorageclass set ARCHIVE gs://$Bucket_3
+    echo "${LIME_TEXT}${BOLD_TEXT}Form 3 execution completed successfully!${RESET_FORMAT}"
+}
 
+# Main script starts here
+echo
 
-gcloud sql instances create blog-db \
-  --database-version=MYSQL_5_7 \
-  --region="${ZONE%-*}" \
-  --tier=db-n1-standard-1 \
-  --storage-size=10GB \
-  --storage-type=SSD \
-  --backup-start-time=07:00 \
-  --maintenance-window-day=MON \
-  --maintenance-window-hour=10 \
-  --backup-location="${ZONE%-*}"
+read -p "${GOLD_TEXT}${BOLD_TEXT}Enter Bucket_1 name: ${RESET_FORMAT}" Bucket_1
+echo "${WHITE_TEXT}Bucket_1 set as: ${BOLD_TEXT}$Bucket_1${RESET_FORMAT}"
 
+read -p "${GOLD_TEXT}${BOLD_TEXT}Enter Bucket_2 name: ${RESET_FORMAT}" Bucket_2
+echo "${WHITE_TEXT}Bucket_2 set as: ${BOLD_TEXT}$Bucket_2${RESET_FORMAT}"
 
+read -p "${GOLD_TEXT}${BOLD_TEXT}Enter Bucket_3 name: ${RESET_FORMAT}" Bucket_3
+echo "${WHITE_TEXT}Bucket_3 set as: ${BOLD_TEXT}$Bucket_3${RESET_FORMAT}"
 
+echo "${NAVY_TEXT}${BOLD_TEXT}Choose the form number to execute:${RESET_FORMAT}"
 
-gcloud sql instances describe blog-db --format="value(ipAddresses.ipAddress)"
+read -p "${NAVY_TEXT}${BOLD_TEXT}Enter Form number (1, 2, or 3): ${RESET_FORMAT}" form_number
 
-gcloud sql users create blogdbuser --instance=blog-db 
+# Execute the appropriate function based on the selected form number
+case $form_number in
+    1) run_form_1 ;;
+    2) run_form_2 ;;
+    3) run_form_3 ;;
+    *) echo "${MAROON_TEXT}${BOLD_TEXT}Invalid form number. Please enter 1, 2, or 3.${RESET_FORMAT}" ;;
+esac
 
-
-# Define variables
-INSTANCE_NAME="blog-db"
-AUTHORIZED_NETWORK_NAME="web-front-end"
-EXTERNAL=$(gcloud compute instances list --format='value(EXTERNAL_IP)')
-
-# Patch the Cloud SQL instance with the authorized network
-gcloud sql instances patch $INSTANCE_NAME \
-  --authorized-networks=$EXTERNAL/32 \
-  --quiet
+echo
+echo "${LIME_TEXT}${BOLD_TEXT}=================================================${RESET_FORMAT}"
+echo "${LIME_TEXT}${BOLD_TEXT}        LAB COMPLETED SUCCESSFULLY!        ${RESET_FORMAT}"
+echo "${LIME_TEXT}${BOLD_TEXT}=================================================${RESET_FORMAT}"
+echo ""
+echo -e "${MAROON_TEXT}${BOLD_TEXT}Subscribe to Dr. Abhishek's Channel:${RESET_FORMAT} ${NAVY_TEXT}${BOLD_TEXT}https://www.youtube.com/@drabhishek.5460${RESET_FORMAT}"
+echo
