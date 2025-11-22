@@ -23,16 +23,16 @@ Este projeto tem como objetivo **apoiar sua jornada de aprendizado**, e não sub
 ### Siga os passos abaixo:
 
 ```
-export ZONE_1=
+export ZONE_1=us-east4-a
 
-export ZONE_2=
+export ZONE_2=asia-southeast1-b
 
+curl -LO https://raw.githubusercontent.com/elizabetefabri/GoogleCloudSkillsboost/refs/heads/main/03.%20Lab%3A%20Introdu%C3%A7%C3%A3o%20%C3%A0%20rede%20VPC%20e%20ao%20Google%20Compute%20Engine/elizabetefabri.sh
 
+sudo chmod +x elizabetefabri.sh
 
+./elizabetefabri.sh
 
-sudo chmod +x quicklab.sh
-
-./quicklab.sh
 ```
 
 
