@@ -41,7 +41,7 @@ Use esta seção para consultar rapidamente o que já foi feito e revisar o cont
       </td>
       <td align="center">
         <p>
-          <a href="" target="_blank">
+          <a href="https://github.com/elizabetefabri/GoogleCloudSkillsboost/blob/main/Semana%2001/Semana%2001.%20Core%20Infrastructure/01.%20Tests%3A%20Pricing%20and%20biling/teste.md" target="_blank">
             <img align="center" alt="Botão" src="https://img.shields.io/badge/ABRIR-FF9988?COLOR?style=for-the-badge" width="60px">
           </a>
         </p>
@@ -61,7 +61,7 @@ Use esta seção para consultar rapidamente o que já foi feito e revisar o cont
       </td>
       <td align="center">
         <p>
-          <a href="" target="_blank">
+          <a href="https://github.com/elizabetefabri/GoogleCloudSkillsboost/blob/main/Semana%2001/Semana%2001.%20Core%20Infrastructure/02.%20Tests%3A%20Getting%20Started%20with%20Cloud%20Marketplace/teste.md" target="_blank">
             <img align="center" alt="Botão" src="https://img.shields.io/badge/ABRIR-FF9988?COLOR?style=for-the-badge" width="60px">
           </a>
         </p>
@@ -81,7 +81,7 @@ Use esta seção para consultar rapidamente o que já foi feito e revisar o cont
       </td>
       <td align="center">
         <p>
-          <a href="" target="_blank">
+          <a href="https://github.com/elizabetefabri/GoogleCloudSkillsboost/blob/main/Semana%2001/Semana%2001.%20Core%20Infrastructure/03.%20Tests%3A%20Getting%20Started%20with%20VPC%20Networking%20and%20Google%20Compute%20Engine/teste.md" target="_blank">
             <img align="center" alt="Botão" src="https://img.shields.io/badge/ABRIR-FF9988?COLOR?style=for-the-badge" width="60px">
           </a>
         </p>
@@ -101,7 +101,7 @@ Use esta seção para consultar rapidamente o que já foi feito e revisar o cont
       </td>
       <td align="center">
         <p>
-          <a href="" target="_blank">
+          <a href="https://github.com/elizabetefabri/GoogleCloudSkillsboost/blob/main/Semana%2001/Semana%2001.%20Core%20Infrastructure/04.%20Tests%3A%20Getting%20Started%20with%20Cloud%20Storage%20and%20Cloud%20SQL/teste.md" target="_blank">
             <img align="center" alt="Botão" src="https://img.shields.io/badge/ABRIR-FF9988?COLOR?style=for-the-badge" width="60px">
           </a>
         </p>
@@ -121,7 +121,7 @@ Use esta seção para consultar rapidamente o que já foi feito e revisar o cont
       </td>
       <td align="center">
         <p>
-          <a href="" target="_blank">
+          <a href="https://github.com/elizabetefabri/GoogleCloudSkillsboost/blob/main/Semana%2001/Semana%2001.%20Core%20Infrastructure/05.%20Tests%3A%20Google%20Kubernetes%20Engine/teste.md" target="_blank">
             <img align="center" alt="Botão" src="https://img.shields.io/badge/ABRIR-FF9988?COLOR?style=for-the-badge" width="60px">
           </a>
         </p>
@@ -141,7 +141,7 @@ Use esta seção para consultar rapidamente o que já foi feito e revisar o cont
       </td>
       <td align="center">
         <p>
-          <a href="" target="_blank">
+          <a href="https://github.com/elizabetefabri/GoogleCloudSkillsboost/blob/main/Semana%2001/Semana%2001.%20Core%20Infrastructure/06.%20Tests%3A%20Hello%20Cloud%20Run/teste.md" target="_blank">
             <img align="center" alt="Botão" src="https://img.shields.io/badge/ABRIR-FF9988?COLOR?style=for-the-badge" width="60px">
           </a>
         </p>
@@ -161,7 +161,7 @@ Use esta seção para consultar rapidamente o que já foi feito e revisar o cont
       </td>
       <td align="center">
         <p>
-          <a href="" target="_blank">
+          <a href="https://github.com/elizabetefabri/GoogleCloudSkillsboost/blob/main/Semana%2001/Semana%2001.%20Core%20Infrastructure/07.%20Tests%3A%20Prompt%20Engineering/teste.md" target="_blank">
             <img align="center" alt="Botão" src="https://img.shields.io/badge/ABRIR-FF9988?COLOR?style=for-the-badge" width="60px">
           </a>
         </p>

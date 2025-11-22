@@ -37,11 +37,11 @@ Use esta seção para consultar rapidamente o que já foi feito e revisar o cont
         </p>
       </td>
       <td>
-        <p>✨ 01. Implement Load Balancing on Compute Engine</p>
+        <p>✨ 01. Lab: Implementing Cloud Load Balancing for Compute Engine</p>
       </td>
       <td align="center">
         <p>
-          <a href="" target="_blank">
+          <a href="https://github.com/elizabetefabri/GoogleCloudSkillsboost/blob/main/Semana%2001/Semana%2001.%20Cloud%20Loud%20Balancing%20no%20Compute%20Engine/01.%20Lab%3A%20Implementar%20balanceamento%20de%20carga%20no%20mecanismo%20de%20computa%C3%A7%C3%A3o/lab.md" target="_blank">
             <img align="center" alt="Botão" src="https://img.shields.io/badge/ABRIR-FF9988?COLOR?style=for-the-badge" width="60px">
           </a>
         </p>
@@ -57,11 +57,11 @@ Use esta seção para consultar rapidamente o que já foi feito e revisar o cont
         </p>
       </td>
       <td>
-        <p>✨ 02. Google Cloud Fundamentals: Core Infrastructure</p>
+        <p>✨ Ir para:  Google Cloud Fundamentals: Core Infrastructure</p>
       </td>
       <td align="center">
         <p>
-          <a href="" target="_blank">
+          <a href="https://github.com/elizabetefabri/GoogleCloudSkillsboost/tree/main/Semana%2001/Semana%2001.%20Core%20Infrastructure" target="_blank">
             <img align="center" alt="Botão" src="https://img.shields.io/badge/ABRIR-FF9988?COLOR?style=for-the-badge" width="60px">
           </a>
         </p>
