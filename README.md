@@ -29,42 +29,42 @@ Usei este espaço como **central de estudos**, facilitando o acesso e registro d
   <tbody align="left">
     <tr>
       <td>
-        <h3>01</h3>
+        <h4>01</h4>
       </td>
       <td  align="center">
-        <h3>
+        <h4>
           <img width="25px" height="25px" alt="icon check" src="./.github/images/check.png">
-        </h3>
+        </h4>
       </td>
       <td>
-        <h3>Laboratório: Implementar balanceamento de carga no mecanismo de computação</h3>
+        <h4>Laboratório: Implementar balanceamento de carga no mecanismo de computação</h4>
       </td>
       <td align="center">
-        <h3>
+        <h4>
           <a href="https://github.com/elizabetefabri/GoogleCloudSkillsboost/blob/main/01.%20Lab%3A%20Implementar%20balanceamento%20de%20carga%20no%20mecanismo%20de%20computa%C3%A7%C3%A3o/lab.md" target="_blank">
             <img align="center" alt="Botão" src="https://img.shields.io/badge/ABRIR-FF9988?COLOR?style=for-the-badge" width="60px">
           </a>
-        </h3>
+        </h4>
       </td>
     </tr>
     <tr>
       <td>
-        <h3>01</h3>
+        <h4>01</h4>
       </td>
       <td  align="center">
-        <h3>
+        <h4>
           <img width="25px" height="25px" alt="icon check" src="./.github/images/check.png">
-        </h3>
+        </h4>
       </td>
       <td>
-        <h3>Laboratório: Recursos e acesso na nuvem: Noções básicas do Google Cloud: introdução ao Cloud Marketplace</h3>
+        <h4>Laboratório: Recursos e acesso na nuvem: Noções básicas do Google Cloud: introdução ao Cloud Marketplace</h4>
       </td>
       <td align="center">
-        <h3>
+        <h4>
           <a href="https://github.com/elizabetefabri/GoogleCloudSkillsboost/blob/main/02.%20Lab%3A%20introdu%C3%A7%C3%A3o%20ao%20Cloud%20Marketplace/lab.md" target="_blank">
             <img align="center" alt="Botão" src="https://img.shields.io/badge/ABRIR-FF9988?COLOR?style=for-the-badge" width="60px">
           </a>
-        </h3>
+        </h4>
       </td>
     </tr>
 </tbody>
@@ -89,42 +89,42 @@ Usei este espaço como **central de estudos**, facilitando o acesso e registro d
   <tbody align="left">
     <tr>
       <td>
-        <h3>01</h3>
+        <h4>01</h4>
       </td>
       <td  align="center">
-        <h3>
+        <h4>
           <img width="25px" height="25px" alt="icon check" src="./.github/images/check.png">
-        </h3>
+        </h4>
       </td>
       <td>
-        <h3>Testes: Introdução ao Curso - Apresentação do Google Cloud</h3>
+        <h4>Testes: Introdução ao Curso - Apresentação do Google Cloud</h4>
       </td>
       <td align="center">
-        <h3>
+        <h4>
           <a href="https://github.com/elizabetefabri/GoogleCloudSkillsboost/blob/main/01.%20Teste%3A%20Introdu%C3%A7%C3%A3o%20ao%20Curso%3A%20Apresenta%C3%A7%C3%A3o%20do%20Google%20Cloud/teste.md" target="_blank">
             <img align="center" alt="Botão" src="https://img.shields.io/badge/ABRIR-FF9988?COLOR?style=for-the-badge" width="60px">
           </a>
-        </h3>
+        </h4>
       </td>
     </tr>
     <tr>
       <td>
-        <h3>02</h3>
+        <h4>02</h4>
       </td>
       <td  align="center">
-        <h3>
+        <h4>
           <img width="25px" height="25px" alt="icon check" src="./.github/images/check.png">
-        </h3>
+        </h4>
       </td>
       <td>
-        <h3>Testes: Recursos e acesso na nuvem - Noções básicas do Google Cloud: introdução ao Cloud Marketplace</h3>
+        <h4>Testes: Recursos e acesso na nuvem - Noções básicas do Google Cloud: introdução ao Cloud Marketplace</h4>
       </td>
       <td align="center">
-        <h3>
+        <h4>
           <a href="https://github.com/elizabetefabri/GoogleCloudSkillsboost/blob/main/02.%20Teste%3A%20Recursos%20e%20acesso%20na%20nuvem%3A%20No%C3%A7%C3%B5es%20b%C3%A1sicas%20do%20Google%20Cloud%3A%20introdu%C3%A7%C3%A3o%20ao%20Cloud%20Marketplace/teste.md" target="_blank">
             <img align="center" alt="Botão" src="https://img.shields.io/badge/ABRIR-FF9988?COLOR?style=for-the-badge" width="60px">
           </a>
-        </h3>
+        </h4>
       </td>
     </tr>
 </tbody>
