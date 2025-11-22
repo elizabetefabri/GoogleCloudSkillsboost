@@ -1,11 +1,13 @@
 <h1>
     <a href="https://www.skills.google/course_templates/648/labs/597919">
-        <img align="center" width="40px" src="../.github/images/google-cloud.png" alt="Google Cloud Logo">
+        <img align="center" width="40px" src="../../.github/images/google-cloud.png" alt="Google Cloud Logo">
     </a>
-    <span>02. Recursos e acesso na nuvem: Noções básicas do Google Cloud: introdução ao Cloud Marketplace</span>
+    <span>02. Tests: Getting Started with Cloud Marketplace</span>
 </h1>
 
-### **1️⃣ Qual destes valores é globalmente exclusivo, permanente e imutável, mas pode ser modificado pelo cliente durante a criação?**
+### 📘 Teste de Conhecimento
+
+### 1️⃣ Qual destes valores é globalmente exclusivo, permanente e imutável, mas pode ser modificado pelo cliente durante a criação?
 
 > Resposta correta: **O ID do projeto**
 
@@ -16,7 +18,7 @@
 
 ---
 
-### **2️⃣ Organize estes tipos de papéis do IAM do mais amplo ao mais detalhado.**
+### 2️⃣ Organize estes tipos de papéis do IAM do mais amplo ao mais detalhado.
 
 > Resposta correta: **Papéis básicos → Papéis predefinidos → Papéis personalizados**
 
@@ -26,7 +28,7 @@
 
 ---
 
-### **3️⃣ Preencha: Os serviços e as APIs são ativados por __________.**
+### 3️⃣ Preencha: Os serviços e as APIs são ativados por __________.
 
 > Resposta correta: **Projeto**
 

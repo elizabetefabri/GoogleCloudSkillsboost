@@ -1,11 +1,13 @@
 <h1>
     <a href="https://www.skills.google/course_templates/648/labs/597919">
-        <img align="center" width="40px" src="../.github/images/google-cloud.png" alt="Google Cloud Logo">
+        <img align="center" width="40px" src="../../.github/images/google-cloud.png" alt="Google Cloud Logo">
     </a>
-    <span>03. Introdução à rede VPC e ao Google Compute Engine</span>
+    <span>04. Tests: Getting Started with Cloud Storage and Cloud SQL</span>
 </h1>
 
-### **1️⃣ Qual dos serviços de banco de dados relacional a seguir pode ser escalonado para tamanhos maiores?**
+### 📘 Teste de Conhecimento
+
+### 1️⃣ Qual dos serviços de banco de dados relacional a seguir pode ser escalonado para tamanhos maiores?
 
 > Resposta correta: **Spanner**
 
@@ -16,7 +18,7 @@
 
 ---
 
-### **2️⃣ Por que um cliente consideraria a classe Coldline Storage?**
+### 2️⃣ Por que um cliente consideraria a classe Coldline Storage?
 
 > Resposta correta: **Para reduzir os custos com o armazenamento de dados acessados com pouca frequência.**
 
@@ -27,7 +29,7 @@
 
 ---
 
-### **3️⃣ Qual é o caso de uso correto para o Cloud Storage?**
+### 3️⃣ Qual é o caso de uso correto para o Cloud Storage?
 
 > Resposta correta: **O Cloud Storage é adequado para fornecer armazenamento de objetos durável e altamente disponível.**
 
