@@ -29,42 +29,42 @@ Usei este espaço como **central de estudos**, facilitando o acesso e registro d
   <tbody align="left">
     <tr>
       <td>
-        <h4>01</h4>
+        <p>01</p>
       </td>
       <td  align="center">
-        <h4>
+        <p>
           <img width="25px" height="25px" alt="icon check" src="./.github/images/check.png">
-        </h4>
+        </p>
       </td>
       <td>
-        <h4>Laboratório: Implementar balanceamento de carga no mecanismo de computação</h4>
+        <p>Laboratório: Implementar balanceamento de carga no mecanismo de computação</p>
       </td>
       <td align="center">
-        <h4>
+        <p>
           <a href="https://github.com/elizabetefabri/GoogleCloudSkillsboost/blob/main/01.%20Lab%3A%20Implementar%20balanceamento%20de%20carga%20no%20mecanismo%20de%20computa%C3%A7%C3%A3o/lab.md" target="_blank">
             <img align="center" alt="Botão" src="https://img.shields.io/badge/ABRIR-FF9988?COLOR?style=for-the-badge" width="60px">
           </a>
-        </h4>
+        </p>
       </td>
     </tr>
     <tr>
       <td>
-        <h4>01</h4>
+        <p>01</p>
       </td>
       <td  align="center">
-        <h4>
+        <p>
           <img width="25px" height="25px" alt="icon check" src="./.github/images/check.png">
-        </h4>
+        </p>
       </td>
       <td>
-        <h4>Laboratório: Recursos e acesso na nuvem: Noções básicas do Google Cloud: introdução ao Cloud Marketplace</h4>
+        <p>Laboratório: Recursos e acesso na nuvem: Noções básicas do Google Cloud: introdução ao Cloud Marketplace</p>
       </td>
       <td align="center">
-        <h4>
+        <p>
           <a href="https://github.com/elizabetefabri/GoogleCloudSkillsboost/blob/main/02.%20Lab%3A%20introdu%C3%A7%C3%A3o%20ao%20Cloud%20Marketplace/lab.md" target="_blank">
             <img align="center" alt="Botão" src="https://img.shields.io/badge/ABRIR-FF9988?COLOR?style=for-the-badge" width="60px">
           </a>
-        </h4>
+        </p>
       </td>
     </tr>
 </tbody>
@@ -89,42 +89,42 @@ Usei este espaço como **central de estudos**, facilitando o acesso e registro d
   <tbody align="left">
     <tr>
       <td>
-        <h4>01</h4>
+        <p>01</p>
       </td>
       <td  align="center">
-        <h4>
+        <p>
           <img width="25px" height="25px" alt="icon check" src="./.github/images/check.png">
-        </h4>
+        </p>
       </td>
       <td>
-        <h4>Testes: Introdução ao Curso - Apresentação do Google Cloud</h4>
+        <p>Testes: Introdução ao Curso - Apresentação do Google Cloud</p>
       </td>
       <td align="center">
-        <h4>
+        <p>
           <a href="https://github.com/elizabetefabri/GoogleCloudSkillsboost/blob/main/01.%20Teste%3A%20Introdu%C3%A7%C3%A3o%20ao%20Curso%3A%20Apresenta%C3%A7%C3%A3o%20do%20Google%20Cloud/teste.md" target="_blank">
             <img align="center" alt="Botão" src="https://img.shields.io/badge/ABRIR-FF9988?COLOR?style=for-the-badge" width="60px">
           </a>
-        </h4>
+        </p>
       </td>
     </tr>
     <tr>
       <td>
-        <h4>02</h4>
+        <p>02</p>
       </td>
       <td  align="center">
-        <h4>
+        <p>
           <img width="25px" height="25px" alt="icon check" src="./.github/images/check.png">
-        </h4>
+        </p>
       </td>
       <td>
-        <h4>Testes: Recursos e acesso na nuvem - Noções básicas do Google Cloud: introdução ao Cloud Marketplace</h4>
+        <p>Testes: Recursos e acesso na nuvem - Noções básicas do Google Cloud: introdução ao Cloud Marketplace</p>
       </td>
       <td align="center">
-        <h4>
+        <p>
           <a href="https://github.com/elizabetefabri/GoogleCloudSkillsboost/blob/main/02.%20Teste%3A%20Recursos%20e%20acesso%20na%20nuvem%3A%20No%C3%A7%C3%B5es%20b%C3%A1sicas%20do%20Google%20Cloud%3A%20introdu%C3%A7%C3%A3o%20ao%20Cloud%20Marketplace/teste.md" target="_blank">
             <img align="center" alt="Botão" src="https://img.shields.io/badge/ABRIR-FF9988?COLOR?style=for-the-badge" width="60px">
           </a>
-        </h4>
+        </p>
       </td>
     </tr>
 </tbody>
